@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Social Media Publicity using AI Guide</title>
+
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        body {
+            padding-top: 60px;
+        }
+
+        .navbar-burger {
+          margin-left: auto;
+        }
+      </style>
+</head>
+<body>
+    <nav id="navbar" class="navbar has-background-primary">
+        <!--figure out hamburger menu-->
+        <div class="navbar-brand">
+            <!-- This is the burger icon -->
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-links">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        
+        <div class="navbar-menu" id="nav-links">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#intro">Introduction</a>
+            <a class="navbar-item" href="#audience">Audience</a>
+            <a class="navbar-item" href="#how-works">How it Works</a>
+            <a class="navbar-item" href="#uses">Uses</a>
+            <a class="navbar-item" href="#tools">Tools</a>
+            <a class="navbar-item" href="#pros-cons">Pros & Cons</a>
+            <a class="navbar-item" href="#future">The Future</a>
+            <a class="navbar-item" href="#conclusion">Conclusion</a>
+            <a class="navbar-item" href="#credits">Citations</a>
+          </div>
+        </div>
+      </nav>
+    
+    <p class="title has-text-centered pt-5">Social Media Publicity Using AI Guide</p>
+    <p class="subtitle has-text-centered">Reva Sathe</p>
+
+    <div id="mainContent">
+
+        <div class="section">
+            <p class="is-size-4 has-text-weight-semibold" id="intro">Introduction to Generative AI for Small Teams and Studios</p>
+            <p class="container pt-3 pl-4">Generative AI has quickly become a major force in nearly every industry, transforming the way we create and interact with content. Its rapid rise has been impressive, almost faster than people could fully process or adapt to. Naturally, this has led to some fear and uncertainty surrounding the technology. I can relate to that initial skepticism, having been surprised myself by how quickly generative AI developed. However, my perspective shifted as I began to see it not as a threat to my work but as a powerful tool to boost productivity and efficiency. As a student and someone helping launch a production studio with friends, I’ve come to appreciate how generative AI can be a game-changer, especially for small teams looking to streamline social media and marketing efforts. It offers a way for us to compete and grow more effectively in today’s fast-paced digital world.</p>
+
+            <p class="is-size-4 pt-3 has-text-weight-semibold" id="audience">Who This Guide is For?</p>
+            <p class="container pt-3 pl-4">This guide is designed for small creative teams and studios driven by a passion for their work. These teams often juggle multiple roles, tight budgets, and limited time while still trying to create engaging, high-quality content for social media. The challenge with social media is the constant need to stay active and consistently post to gain and maintain traction, which can be difficult for smaller teams where every member already has different responsibilities. This is where generative AI can step in, not to replace content creation but to assist with tasks like formatting and writing captions, easing the workload. By automating these time-consuming aspects, generative AI allows teams to focus more on the work that truly fuels their passion.</p>
+            
+            <p class="is-size-4 pt-3 has-text-weight-semibold" id="how-works">How Generative AI Works</p>
+            <p class="is-size-5 pl-4 container has-text-weight-semibold">Text Generation</p>
+            <p class="container pl-4">Before diving into how generative AI can benefit small teams on social media, it's helpful to understand the basics of how this technology works. The most commonly recognized form of generative AI is text generation, powered by Large Language Models (LLMs). As Cloudflare explains, “... an LLM is a computer program that has been fed enough examples to be able to recognize and interpret human language or other types of complex data…LLMs use a type of machine learning called deep learning in order to understand how characters, words, and sentences function together” (Cloudflare, 2024). Through repeated training and adjustments based on user feedback, these models become more accurate and coherent over time.</p>
+            <p class="container pt-1 pl-4">In simple terms, LLMs create a web of correlations between words and concepts, strengthening connections that frequently appear together. It’s a bit like how a child learns to recognize patterns in language. After training, these models are capable of generating everything from chatbot conversations to more niche applications like data analysis . This flexibility is what makes generative AI such a powerful tool for various industries, including small creative teams who want to enhance their social media presence efficiently.</p>
+            <p class="is-size-5 pt-3 pl-4 container has-text-weight-semibold">Image Generation</p>
+
+            <p class="is-size-4 has-text-weight-semibold pt-3" id="uses">Use Cases</p>
+        
+            <p class="is-size-4 has-text-weight-semibold pt-3" id="tools">Generative AI Tools for Social Media Content</p>
+            
+            <p class="is-size-4 has-text-weight-semibold pt-3" id="pros-cons">Pros & Cons</p>
+            
+            <p class="is-size-4 has-text-weight-semibold pt-3" id="future">The Future of Generative AI for Social Media Promotion</p>
+            
+            <p class="is-size-4 has-text-weight-semibold pt-3" id="conclusion">Conclusion</p>
+
+            <p class="is-size-4 has-text-weight-semibold pt-3" id="credits">Citations</p>
+        
+        </div>
+
+        
+
+    </div>
+    
+
+    <script>
+        // Toggle the burger menu visibility
+        document.addEventListener('DOMContentLoaded', () => {
+            const burger = document.querySelector('.navbar-burger');
+            const navMenu = document.querySelector('#nav-links');
+
+            burger.addEventListener('click', () => {
+                burger.classList.toggle('is-active');
+                navMenu.classList.toggle('is-active');
+            });
+        });
+    </script>
+</body>
+</html>
